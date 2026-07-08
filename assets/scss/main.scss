@@ -1,0 +1,24 @@
+// Utilities
+@use 'utilities/variables';
+@use 'utilities/mixins';
+
+// Base
+@use 'base/reset';
+@use 'base/typography';
+
+// Layout
+@use 'layout/header';
+@use 'layout/footer';
+
+// Components 
+@use 'components/navbar';
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/forms';
+
+// Pages
+@use 'pages/home';
+@use 'pages/servicios';
+@use 'pages/soluciones';
+@use 'pages/nosotros';
+@use 'pages/contacto';
